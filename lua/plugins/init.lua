@@ -10,6 +10,19 @@ return {
     priority = 1000 -- Ensure it loads first
   },
 
+   {
+    "norcalli/nvim-colorizer.lua",
+    config = function()
+      require("colorizer").setup({
+        "*", -- Enable for all file types
+      }, {
+        mode = "background", -- Set display mode to background or virtual text
+        names = true,        -- Enable parsing color names like "red", "blue", etc.
+      })
+    end,
+  },
+
+
   	-- NvimTree plugin
 	{
     "nvim-tree/nvim-tree.lua",
