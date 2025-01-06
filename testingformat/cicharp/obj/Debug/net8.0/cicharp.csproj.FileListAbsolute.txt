@@ -1,0 +1,15 @@
+/home/ahmada/.config/lvim/testingformat/cicharp/bin/Debug/net8.0/cicharp
+/home/ahmada/.config/lvim/testingformat/cicharp/bin/Debug/net8.0/cicharp.deps.json
+/home/ahmada/.config/lvim/testingformat/cicharp/bin/Debug/net8.0/cicharp.runtimeconfig.json
+/home/ahmada/.config/lvim/testingformat/cicharp/bin/Debug/net8.0/cicharp.dll
+/home/ahmada/.config/lvim/testingformat/cicharp/bin/Debug/net8.0/cicharp.pdb
+/home/ahmada/.config/lvim/testingformat/cicharp/obj/Debug/net8.0/cicharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/ahmada/.config/lvim/testingformat/cicharp/obj/Debug/net8.0/cicharp.AssemblyInfoInputs.cache
+/home/ahmada/.config/lvim/testingformat/cicharp/obj/Debug/net8.0/cicharp.AssemblyInfo.cs
+/home/ahmada/.config/lvim/testingformat/cicharp/obj/Debug/net8.0/cicharp.csproj.CoreCompileInputs.cache
+/home/ahmada/.config/lvim/testingformat/cicharp/obj/Debug/net8.0/cicharp.sourcelink.json
+/home/ahmada/.config/lvim/testingformat/cicharp/obj/Debug/net8.0/cicharp.dll
+/home/ahmada/.config/lvim/testingformat/cicharp/obj/Debug/net8.0/refint/cicharp.dll
+/home/ahmada/.config/lvim/testingformat/cicharp/obj/Debug/net8.0/cicharp.pdb
+/home/ahmada/.config/lvim/testingformat/cicharp/obj/Debug/net8.0/cicharp.genruntimeconfig.cache
+/home/ahmada/.config/lvim/testingformat/cicharp/obj/Debug/net8.0/ref/cicharp.dll
