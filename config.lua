@@ -31,6 +31,18 @@ require("catppuccin").setup({
   },
 })
 
+local lspconfig = require("lspconfig")
+
+lspconfig.omnisharp.setup({
+  cmd = { "/usr/local/bin/omnisharp/OmniSharp", "--languageserver", "--hostPID", tostring(vim.fn.getpid()) },
+  root_dir = lspconfig.util.root_pattern("*.sln", "*.csproj", ".git"),
+  capabilities = require("lvim.lsp").common_capabilities(), -- Ensure this function exists
+  on_attach = function(client, bufnr)
+    require("lvim.lsp").common_on_attach(client, bufnr) -- Ensure this function exists
+    -- Additional custom on_attach logic (if needed)
+  end,
+})
+
 -- Set colorscheme
 lvim.colorscheme = "catppuccin"
 
