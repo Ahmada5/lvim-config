@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cicharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33848f93a85db589de5e917444e1bcd2e399e82f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49ea4ba637ea63dfe5d8ff3727759371a4b19644")]
 [assembly: System.Reflection.AssemblyProductAttribute("cicharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cicharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
