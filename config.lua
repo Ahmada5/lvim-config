@@ -4,6 +4,10 @@ require("mappings.init") --load mappings
 vim.opt.wrap = true  -- Enable line wrapping
 vim.opt.linebreak = true  -- Avoid breaking words in the middle
 
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
+
 -- Configure Catppuccin
 require("catppuccin").setup({
   flavour = "mocha", -- Options: latte, frappe, macchiato, mocha
@@ -55,3 +59,13 @@ lvim.builtin.nvimtree.setup = {
     dotfiles = false, -- Show dotfiles in NvimTree
   },
 }
+
+-- Key mappings for Telescope
+lvim.builtin.which_key.mappings["f"] = {
+  name = "Find", -- Optional group name in the which-key popup
+  f = { "<cmd>Telescope find_files<CR>", "Find File" },
+  g = { "<cmd>Telescope live_grep<CR>", "Grep Text" },
+  b = { "<cmd>Telescope buffers<CR>", "Buffers" },
+  h = { "<cmd>Telescope help_tags<CR>", "Help Tags" },
+}
+
